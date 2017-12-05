@@ -26,7 +26,7 @@ public class HomePage extends BasePage {
     @FindBy(how = How.XPATH, using = ".//button[@class='btn m-btn_loader m-btn_full u-vr6x']")
     public WebElement btnLoginClick;
 
-    @FindBy(how = How.CSS, using = ".header-inner-profile-btn")
+    @FindBy(how = How.CSS, using = ".fapMenu-inner-section-field fapMenu-inner-section-field_btn u-isHidden@maxLg")
     public WebElement btnFindADog;
 
 
@@ -40,6 +40,8 @@ public class HomePage extends BasePage {
         btnLoginClick.click();
 
     }
+
+
 
 
 }
